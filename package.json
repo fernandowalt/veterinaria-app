@@ -1,11 +1,13 @@
 {
   "name": "citas-react",
+  "homepage": "https://fernandowalt.github.io/veterinaria-app",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "autoprefixer": "^10.4.2",
@@ -15,6 +17,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
+    "gh-pages": "^3.2.3",
     "tailwindcss": "^3.0.23",
     "vite": "^2.8.0"
   }
